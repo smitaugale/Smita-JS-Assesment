@@ -1,0 +1,169 @@
+ 
+
+body
+{
+    background-color: #d8d8d8;
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+    color: #c30c5b;
+    font-style: italic;
+    
+ }
+#info
+{
+    font-size: medium;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#create
+{
+    font-size: 20px;
+    text-decoration:underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #681036;
+}
+#left
+{
+    background-color: rgba(129,128,129,255);
+    height: 800px;
+    width: 47%;
+    
+    float: left;
+    margin-top: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+#right
+{
+    height: 800px;
+    width: 50%;
+    background-color: rgb(211, 199, 235);
+    
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.socialBtn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color:white;
+    border: none;
+    padding: 10px;
+    gap: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    width: 200px;
+    height: 15px;
+    float: left;
+    margin-left: 50px;
+    color: rgb(19, 135, 117);
+}
+.or
+{
+    
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+}
+.or1
+{
+  
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.continue
+{
+    margin-top: 200px;
+    text-align: center;
+}
+.loginForm
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+
+}
+
+.loginForm input
+{
+    margin-bottom: 5px;
+    width: 300px;
+    height: 20px;
+    
+}
+#button
+{
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(41,57,194);
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    align-items: center;
+
+}
+.input-control
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+.input-control input
+{
+    border: 2px solid #f0f0f0;
+    border-radius: 2px;
+    display: block;
+    font-size: 10px;
+    padding: 3px;
+    margin-bottom: 10px;
+   
+}
+.input-control input:focus
+{
+    outline: 0;
+}
+.input-control.success input
+{
+    border-color: #09c372;
+}
+.input-control.error input
+{
+    border-color: #ff3860;
+   
+}
+.input-control.error
+{
+    color: #ff3860;
+    font-size: 10px;
+   
+}
+.input-control.error label
+{
+    color: black;
+    font-size: medium;
+}
+
+/*.container
+{
+    max-width: 100%;
+}
+.body
+{
+    display: flex;
+    min-height: 100vh;
+}*/

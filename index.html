@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script defer src="logic.js"></script>
+       
+    </head>
+    <body>
+       
+        <div class="container">
+
+            <!--Left Side Image for the website-->
+            <div id="left">
+                <img src="Flight Booking-amico.png" height="750px" width="650px"/>
+            </div>
+
+            <!--Right Side Form for the website-->
+            <div id="right">
+                <h1>Welcome To BookingBuddy </h1>
+                <p id="info">Search for Cheap Flights and Save Money on Airfare. 
+                    Find the Right Flight. <br>BookingBuddy® </p>
+
+              <a href="https://www.google.com/" target="_blank" class="socialBtn">
+                <i class="fab fa-google"></i>
+                Log In With Google
+              </a>
+
+              <a href="https://www.facebook.com/" target="_blank" class="socialBtn">
+                <i class="fab fa-facebook-f"></i>
+                Log In With Facebook
+              </a>
+
+                <div class="or">
+                    <hr>
+                </div>
+                <div class="or1">OR</div>
+                <div class="or">
+                    <hr>
+                </div>
+              
+
+                <div class="loginForm">
+                    <p id="create">Create an Account</p>
+                    <form id="form" action="Success.html" method="post">
+                        <div class="input-control ">
+                            <label for="uname1">User Name</label>
+                            <input type="text" id="uname1" placeholder="Enter User Name" >
+                            <div class="error"></div>
+                        </div>
+                        
+                        <div class="input-control">
+                            <label>Password</label>
+                            <input type="password" id="pass" placeholder="Enter Password">
+                            <span class="error"></span>
+                        </div>
+                       <div class="input-control">
+                            <label>Confirm Password</label>
+                            <input type="password" id="cpass" placeholder="Confirm Password">
+                            <span class="error"></span>
+                        </div>
+                        <div class="input-control">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter Email" >
+                            <span class="error"></span>
+                        </div>
+                        <div class="input-control">
+                            <label for="mobilenumber">Mobile Number</label>
+                            <input type="tel" id="mobile" placeholder="Enter mobile number" >
+                            <span class="error"></span>
+                        </div>
+                         <div class="input-control">
+                            <label>Date Of Birth</label>
+                            <input type="date" id="dob" class="uname" placeholder="Enter Date of Birth">
+                            <span class="error"></span>
+                        </div>
+                        <button id="button" type="submit">Sign Up</button>
+                    </form>
+
+
+                </div>
+
+
+
+                
+                
+        
+            </div><!--Righr div tag closing-->
+
+        
+     </div>
+    
+
+    </body>
+    
+</html>
